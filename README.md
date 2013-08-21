@@ -1,7 +1,7 @@
 jss
 ===
 
-A js booster on php server to Compressed javascript and merged into a js file, reduce the number of HTTP requests to speed up the web loading speed
+A js booster on php server to Compressed javascript and merged into one js file, reduce the number of HTTP requests to speed up the web loading speed
 
 
 
@@ -9,10 +9,10 @@ A js booster on php server to Compressed javascript and merged into a js file, r
 -------
 before if you want 2 inlcude hello.js and 2.js to your web page,u may inclue js file like this
     
-    <script src="./jss.php?jss=hello.js"></script>    
-    <script src="./jss.php?jss=2.js"></script>
+    <script src="./hello.js"></script>    
+    <script src="./2.js"></script>
     
-now you can use just like this!
+now you can do just like this!
 
     <script src="./jss.php?jss=hello.js,2.js"></script>
     
